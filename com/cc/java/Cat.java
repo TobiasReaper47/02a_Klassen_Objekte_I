@@ -4,7 +4,7 @@ public class Cat {
 
 
     public void getInstanceVariable(){
-        App.output("Hallo");
+        App.output("Objektadresse:" + this);
 
     }
 
