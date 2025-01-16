@@ -13,7 +13,7 @@ public class App {
 
         Cat cat = new Cat();
         output("Blick von aussen: " + cat); // Impliziertze Typumwandlung Cat --> String
-                                            
+        cat.getInstanceVariable();                                    
 
         output("---------------------");
 
