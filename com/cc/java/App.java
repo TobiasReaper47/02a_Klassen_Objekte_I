@@ -19,9 +19,10 @@ public class App {
         Cat cat2 = new Cat();
         System.out.println(cat2);
 
-    }
-
-    public void output(String outputStr) {
+        output("Hi");
+            }
+        
+            public static void output(String outputStr) {
 
     System.out.println(outputStr);
    }
