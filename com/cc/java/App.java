@@ -12,20 +12,20 @@ public class App {
         // Cat --> Referenztyp(Klasse)
 
         Cat cat = new Cat();
-        System.out.println(cat);
+        output("Blick von aussen: " + cat); // Impliziertze Typumwandlung Cat --> String
+                                            
 
-        System.out.println("---------------------");
+        output("---------------------");
 
         Cat cat2 = new Cat();
-        System.out.println(cat2);
+        output("Blick von aussen: " + cat2);
 
-        output("Hi");
-            }
+    }
         
             public static void output(String outputStr) {
 
     System.out.println(outputStr);
-   }
+    }
 
 }
 
