@@ -6,7 +6,7 @@ public class App {
 
 
         // 2. Iteration
-        // Instanziierung --> Erzeugen eines Objektes
+        // Instanziierung --> Erzeugen eines Objektes d. Aufruf e. Konstruktors
         // Objekt <---> Insatnz
         // cat --> Referenzvariable
         // Cat --> Referenztyp(Klasse)
@@ -21,7 +21,10 @@ public class App {
 
     }
 
-   
+    public void output(String outputStr) {
+
+    System.out.println(outputStr);
+   }
 
 }
 
